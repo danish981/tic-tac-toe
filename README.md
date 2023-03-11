@@ -1,7 +1,7 @@
 # tic-tac-toe🕹️
 Simple Tic Tac Toe web page game. Learn and practice vanilla JavaScript, HTML and CSS are the main purpose.
 
-# Click [here]() to check it out‼️
+# Click [here](https://danish981.github.io/tic-tac-toe/) to check it out‼️
 - No light theme🤢
 - Flexbox layout✔️
 - Rounded corners🤤
