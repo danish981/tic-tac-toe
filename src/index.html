@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="js/game.js" defer></script>
+    <script src="js/utility.js" defer></script>
+  </head>
+  <body>
+    <section class="flex-center flex-container">
+      <!-- tic tac toe interface -->
+      <section class="flex-center interface">
+        <div class="flex-center title-container">
+          <button class="title play-again" title="Restart">Tic tac toe</button>
+        </div>
+
+        <div class="board">
+          <div class="row">
+            <button id="item-0" class="item">_</button>
+            <button id="item-1" class="item">_</button>
+            <button id="item-2" class="item">_</button>
+          </div>
+
+          <div class="row">
+            <button id="item-3" class="item">_</button>
+            <button id="item-4" class="item">_</button>
+            <button id="item-5" class="item">_</button>
+          </div>
+
+          <div class="row">
+            <button id="item-6" class="item">_</button>
+            <button id="item-7" class="item">_</button>
+            <button id="item-8" class="item">_</button>
+          </div>
+        </div>
+
+        <div class="game-output display-none" id="gameOutput">
+          <p id="winner" class="winner"></p>
+          <button class="play-again play-again-2">Play again</button>
+        </div>
+      </section>
+
+      <!-- desktop info section -->
+      <section class="info" id="info-desktop">
+        <p class="p-info">
+          Made by
+          <a href="https://github.com/danish981/" target="_blank"
+            >@danish981</a
+          >. Source code
+          <a
+            href="https://github.com/danish981/tic-tac-toe/"
+            target="_blank"
+            >here</a
+          >.
+        </p>
+      </section>
+
+      <!-- mobile info section -->
+      <section class="info display-none" id="info-mobile">
+        <p class="p-info">
+          Made by
+          <a href="https://github.com/danish981/" target="_blank"
+            >@danish981</a
+          >.
+        </p>
+        <p class="p-info">
+          Source code
+          <a
+            href="https://github.com/danish981/tic-tac-toe/"
+            target="_blank"
+            >here</a
+          >.
+        </p>
+      </section>
+    </section>
+  </body>
+</html>
